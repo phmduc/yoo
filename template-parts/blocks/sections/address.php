@@ -33,37 +33,10 @@ if( !empty($block['align']) ) {
 <section id="<?php echo esc_attr($id); ?>" class="<?php echo esc_attr($className); ?>">
     <div class="container">
         <div class="row pt-4">
-            <div class="col-xl-6 d_flex_content mb-4">
-                    <div class="btn_mien_content ">
-                        
-                        <div class="box_hma">
-                        <div class="img_vector one_vecter">
-                            <img src="<?=  get_stylesheet_directory_uri() . '/assets/images/vector_one.png' ?>" alt="">
-                        </div>
-                        <div class="btn_mien_box">
-                            <button class="btn_mien_item"> Đại Bắc Miền Bắc</button>
-                        </div>
-                        </div>
-                        
-                        <div class="box_hma">
-                        <div class="img_vector two_vecter">
-                            <img src="<?=  get_stylesheet_directory_uri() . '/assets/images/vector_two.png' ?>" alt="">
-                        </div>
-                        <div class="btn_mien_box">
-                            <button class="btn_mien_item"> Đại Bắc Miền Bắc</button>
-                        </div>
-                        </div>
-                        <div class="box_hma">
-                        <div class="img_vector three_vecter">
-                            <img src="<?=  get_stylesheet_directory_uri() . '/assets/images/vector_three.png' ?>" alt="">
-                        </div>
-                        <div class="btn_mien_box">
-                            <button class="btn_mien_item"> Đại Bắc Miền Bắc</button>
-                        </div>
-                        </div>
-                    </div>
+            <div class="col-xl-6  mb-4">
+                    
                     <div class="address_img">
-                        <img src="<?=  get_stylesheet_directory_uri() . '/assets/images/maps.png' ?>" class="image_maps" alt="">
+                        <img src="<?=  get_stylesheet_directory_uri() . '/assets/images/map.png' ?>" class="image_maps img-fluid" alt="">
                     </div>
             </div>
             <div class="col-xl-6">

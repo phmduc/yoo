@@ -43,38 +43,34 @@ if( !empty($block['align']) ) {
                             Click các liên kết để xem thêm các chia sẻ hữu ích cho các vấn đề về da từ Yoosun rau má
                         </p>
                         <div class="problem_box_btn">
-                            <div class="row problem_box_item_content">
-                                
+                            <div class="row ">
+                                <div class="col-lg-6">
+                                    <div href="" class="problem_box_item mb-3">
+                                        <span class="problem_box_item_span">Côn trùng cắn</span>
+                                        <i class="bi bi-arrow-right"></i>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div href="" class="problem_box_item mb-3">
+                                        <span class="problem_box_item_span">Hăm da</span>
+                                        <i class="bi bi-arrow-right"></i>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div href="" class="problem_box_item mb-3">
+                                        <span class="problem_box_item_span">Rôm sảy & mẩn ngứa</span>
+                                        <i class="bi bi-arrow-right"></i>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div href="" class="problem_box_item mb-3">
+                                        <span class="problem_box_item_span">Mụn và thâm sẹo</span>
+                                        <i class="bi bi-arrow-right"></i>
+                                    </div>
+                                </div>
                                    
-                                   <div class="col-lg-6 col-md-6 ">
-                                        <button type="button" class="btn btn-outline-success  btn_problem_item w-100 ">Côn trùng cắn
-                                            <i class="bi bi-arrow-right"></i>
-                                        </button>
-                                   </div>
-                               
                                 
-                                   <div class="col-lg-6 col-md-6">
-                                        <button type="button" class="btn btn-outline-success  btn_problem_item w-100 ">Côn trùng cắn
-                                        <i class="bi bi-arrow-right"></i>
-                                        </button>
-                                   </div>
-                                   
-                                
-                                
-                                 
-                                 <div class="col-lg-6 col-md-6">
-                                        <button type="button" class="btn btn-outline-success  btn_problem_item w-100 ">Côn trùng cắn
-                                        <i class="bi bi-arrow-right"></i>
-                                        </button>
-                                   </div>
-                              
-                                
-                                   <div class="col-lg-6 col-md-6">
-                                        <button type="button" class="btn btn-outline-success  btn_problem_item w-100 ">Côn trùng cắn
-                                        <i class="bi bi-arrow-right"></i>
-                                        </button>
-                                   </div>
-                                 
+                                                                     
                                 
                             </div>
                         </div>
