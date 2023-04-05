@@ -31,7 +31,70 @@ if( !empty($block['align']) ) {
 // Load values and assign defaults.
 ?>
 <section id="<?php echo esc_attr($id); ?>" class="<?php echo esc_attr($className); ?>">
-    <div class="text-center">address</div>
+    <div class="container">
+        <div class="row pt-4">
+            <div class="col-xl-6 d_flex_content mb-4">
+                    <div class="btn_mien_content ">
+                        
+                        <div class="box_hma">
+                        <div class="img_vector one_vecter">
+                            <img src="<?=  get_stylesheet_directory_uri() . '/assets/images/vector_one.png' ?>" alt="">
+                        </div>
+                        <div class="btn_mien_box">
+                            <button class="btn_mien_item"> Đại Bắc Miền Bắc</button>
+                        </div>
+                        </div>
+                        
+                        <div class="box_hma">
+                        <div class="img_vector two_vecter">
+                            <img src="<?=  get_stylesheet_directory_uri() . '/assets/images/vector_two.png' ?>" alt="">
+                        </div>
+                        <div class="btn_mien_box">
+                            <button class="btn_mien_item"> Đại Bắc Miền Bắc</button>
+                        </div>
+                        </div>
+                        <div class="box_hma">
+                        <div class="img_vector three_vecter">
+                            <img src="<?=  get_stylesheet_directory_uri() . '/assets/images/vector_three.png' ?>" alt="">
+                        </div>
+                        <div class="btn_mien_box">
+                            <button class="btn_mien_item"> Đại Bắc Miền Bắc</button>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="address_img">
+                        <img src="<?=  get_stylesheet_directory_uri() . '/assets/images/maps.png' ?>" class="image_maps" alt="">
+                    </div>
+            </div>
+            <div class="col-xl-6">
+                <div class="adress_content">
+                    <h4 class="problem_title">
+                    Mua Yoosun rau má dễ dàng tại hơn 15.000 nhà thuốc trên toàn quốc
+                    </h4>
+                    <ul class="adress_ul">
+                        <li class="adress_li">
+                            <a href="">Hơn 15000 Nhà thuốc, Quầy thuốc phân phối</a>
+                        </li>
+                        <li class="adress_li">
+                            <a href="">Trải khắp 63 tỉnh thành cả nước</a>
+                        </li>
+                        <li class="adress_li">
+                            <a href="">Giá bán phải chăng.</a>
+                        </li>
+                    </ul>
+                    <div class="adress_btn">
+                            <a href="#">
+                                <span>Cố vấn chuyên môn</span>
+                                <span>
+                                    Xem ngay nào!
+                                    <i class="bi bi-arrow-right"></i>
+                                </span>
+                            </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 <?php 
 add_action( 'wp_footer', 'addressScript', 99, 1 );
