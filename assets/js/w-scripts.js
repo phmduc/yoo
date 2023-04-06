@@ -32,7 +32,7 @@ appHeight();
     $(this).toggleClass("active");
     $(".m-menu").toggleClass("show");
   });
-  $(".slider-list-container").slick({
+  $(".w-sl .slider-list-container").slick({
     slidesToShow: 4,
     slidesToScroll: 1,
     infinite: true,
@@ -56,6 +56,37 @@ appHeight();
           arrows: false,
           infinite: false,
           draggable: true,
+        },
+      },
+    ],
+    // autoplay: true,
+    // autoplaySpeed: 1000,
+  });
+  $(".w-achivement .achivement-slider").slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    infinite: true,
+    arrows: true,
+    draggable: true,
+    prevArrow: `<button type='button' class='slick-prev'><i class="bi bi-arrow-left-short"></i></button>`,
+    nextArrow: `<button type='button' class='slick-next'><i class="bi bi-arrow-right-short"></i></button>`,
+    dots: true,
+    responsive: [
+      {
+        breakpoint: 1025,
+        settings: {
+          slidesToShow: 1,
+          draggable: true,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          arrows: false,
+          infinite: false,
+          draggable: true,
+          dots: false,
         },
       },
     ],

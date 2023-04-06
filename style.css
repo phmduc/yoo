@@ -571,7 +571,8 @@ body {
   align-items: center;
 }
 .w-sl .slider-heading-wrapper > h2,
-.w-os .slider-heading-wrapper > h2 {
+.w-os .slider-heading-wrapper > h2,
+.w-achivement .slider-heading-wrapper > h2 {
   color: #057324;
   margin-bottom: 0;
   font-size: 32px;
@@ -584,7 +585,8 @@ body {
   color: #212121;
 }
 .w-sl .line,
-.w-os .line {
+.w-os .line,
+.w-achivement .line {
   width: 49px;
   height: 6px;
   background-color: #057324;
@@ -871,3 +873,297 @@ body {
   }
 }
 /* end online shop */
+/* abot product 2 */
+
+.w-ap2 {
+  padding: 10.688rem 0 8.875rem 0;
+  background: rgba(207, 252, 219, 0.41);
+}
+.w-ap2 .w-ap2-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.w-ap2 .ap2-image {
+  width: 43.25rem;
+  height: 43.25rem;
+  position: relative;
+}
+.w-ap2 .ap2-image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(0.8);
+}
+
+.w-ap2 .ap2-desc {
+  position: absolute;
+  left: 0%;
+  top: 5%;
+  width: 100%;
+}
+.w-ap2 .ap2-items {
+  display: flex;
+}
+.w-ap2 .ap2-item {
+  cursor: pointer;
+}
+.w-ap2 .ap2-item > p {
+  max-width: 9.125rem;
+}
+
+.w-ap2 .ap2-items-top {
+  gap: 0 22rem;
+}
+.w-ap2 .ap2-items-center {
+  gap: 0 24rem;
+  margin-top: 3rem;
+}
+.w-ap2 .ap2-heading {
+  display: flex;
+  justify-content: center;
+}
+.w-ap2 .ap2-heading > h2 {
+  text-align: center;
+  font-size: 1.813rem;
+  width: 23.938rem;
+  color: #057324;
+}
+.w-ap2 .ap2-item-image {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform: scale(0.8);
+  position: relative;
+}
+.w-ap2 .ap2-item-image > img {
+  transition: all 0.3s ease-in-out;
+}
+.w-ap2 .ap2-item-image > span {
+  color: #feb52e;
+  z-index: 888;
+  position: absolute;
+  top: 0.5rem;
+  left: 0.8rem;
+  font-size: 1.2rem;
+}
+.w-ap2 .ap2-item-image > img:hover {
+  transform: translateY(-5px) translateX(5px);
+}
+.w-ap2 .ap2-item-image > p {
+  font-weight: 400 !important;
+  font-size: 0.875rem;
+  line-height: 2.688rem;
+  color: #057324;
+}
+.w-ap2 .ap2-item-bottom {
+  display: flex;
+  justify-content: center;
+  margin-top: -2.5rem;
+}
+@media (max-width: 739px) {
+  .w-ap2 {
+    padding: 60px 0 142px 0;
+  }
+  .w-ap2 .ap2-image {
+    width: 25rem;
+    height: 25rem;
+    position: relative;
+  }
+  .w-ap2 .ap2-heading > h2 {
+    font-size: 1.5rem;
+  }
+  .w-ap2 .ap2-items-center,
+  .w-ap2 .ap2-items-top {
+    gap: 0 8.5rem;
+    margin-top: -1rem;
+  }
+  .w-ap2 .ap2-item-image {
+    transform: scale(0.6);
+  }
+  .w-ap2 .ap2-item > p {
+    max-width: 7.063rem;
+    font-size: 0.75rem;
+  }
+  .w-ap2 .ap2-desc {
+    left: 4%;
+    top: 3%;
+  }
+  .w-ap2 .ap2-item-bottom {
+    margin-top: -7.5rem;
+    margin-right: 2.875rem;
+  }
+}
+/* end abot product 2 */
+/* achivement */
+.w-achivement {
+  padding: 91px 0;
+}
+.w-achivement .achivement-item {
+  width: 100%;
+}
+.w-achivement .achivement-left {
+  width: 557px;
+  position: absolute;
+  top: 15%;
+  left: 2%;
+  padding: 27px 104px 0px 38px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 70%;
+  color: #fff;
+}
+.w-achivement .achivement-right {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2.3rem;
+}
+.w-achivement .achivement-image {
+  width: 734px;
+}
+.w-achivement .achivement-image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* slider achivement */
+.w-achivement .slick-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  line-height: 1;
+  z-index: 5;
+  transition: all 0.2s linear;
+  background-color: #c0e7cb;
+  border-radius: 100%;
+  padding: 1rem;
+  border: 0.5px solid #fff;
+}
+.w-achivement .slick-prev {
+  left: 1%;
+}
+.w-achivement .slick-next {
+  right: 58%;
+}
+.w-achivement .slick-prev > i,
+.w-achivement .slick-next > i {
+  /* left: 0; */
+  color: #057324;
+  background-color: rgba(0, 255, 0, 0.1);
+  border-radius: 100%;
+}
+
+.w-achivement .slick-prev:before,
+.w-achivement .slick-next:before {
+  display: none;
+}
+.w-achivement .slick-dots {
+  position: absolute;
+  bottom: -8%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+.w-achivement .slick-dots button {
+  font-size: 50px;
+  width: 3px;
+  height: 3px;
+  border-radius: 100rem;
+  background-color: #eee;
+  border: none;
+  outline: none;
+  transition: all 0.2s linear;
+}
+.slick-dots .slick-active button {
+  background-color: #057324;
+}
+.w-achivement .slick-dots li button:before {
+  display: none;
+}
+
+/* end sider achivement*/
+.w-achivement .achivement-click {
+  border: none;
+  background: #057324;
+  padding: 0.8rem 4rem;
+  border-radius: 40px;
+  color: #fff;
+  font-size: 1rem;
+  position: absolute;
+  bottom: -8%;
+  left: 24%;
+}
+
+.w-achivement .achivement-click::after {
+  content: "Xem ngay nào!";
+  font-weight: 500;
+  color: rgb(222, 232, 42);
+  background: #045f1e;
+  padding: 0.8rem 3rem;
+  border-radius: 40px;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  position: absolute;
+  bottom: 0%;
+  left: 0;
+  transform: scaleY(0%);
+  transition: all 0.1s ease-in-out;
+}
+
+.w-achivement .achivement-click:hover::after {
+  display: block;
+  top: 0;
+  left: 0;
+  transform: scaleY(100%);
+}
+@media (max-width: 1023px) {
+  .w-achivement .achivement-left {
+    height: 76%;
+  }
+  .w-achivement .slick-next {
+    right: 28%;
+  }
+}
+/* Mobile */
+@media (max-width: 739px) {
+  .w-achivement .achivement-left {
+    width: 366px;
+    height: 85%;
+    top: 5%;
+    /* padding: 27px 104px 0px 38px; */
+  }
+  .w-achivement .achivement-left > p {
+    font-size: 12px;
+    display: block;
+    display: -webkit-box;
+    height: 16px * 1.3 * 3;
+    line-height: 1.3;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #fff;
+  }
+  .w-achivement .achivement-right {
+    margin-right: 0;
+    margin-top: 2rem;
+  }
+  .w-achivement .achivement-click {
+    padding: 0.8rem 1rem;
+  }
+  .w-achivement .achivement-click::after {
+    padding: 0.8rem 0.6rem;
+  }
+}
+/* end achivement */
