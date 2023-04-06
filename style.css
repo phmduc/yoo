@@ -685,7 +685,7 @@ html,body {
 		right: 11%;
 	}
 }
-@media (min-width:1202px) and (min-width:992px) {
+@media (max-width:1366px) and (min-width:992px) {
 	.w-banner::after {
 		width: 43%;
 		height: 88%;
