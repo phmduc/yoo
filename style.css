@@ -94,7 +94,7 @@ Text Domain: weable
   --heading-font: "WeableV4", sans-serif;
   --body-font: "WeableV4", sans-serif;
   --small-shadow: 0 10px 50px 0 rgb(231 230 236 / 53%);
-  --medium-shadow: 0 5px 20px 0 rgb(39 40 40 / 15%);
+  --medium-shadow: 0 5px 1.25rem 0 rgb(39 40 40 / 15%);
 }
 
 .h1,
@@ -133,7 +133,7 @@ strong {
 }
 
 .alignnone {
-  margin: 5px 20px 20px 0;
+  margin: 5px 1.25rem 1.25rem 0;
 }
 
 .aligncenter,
@@ -144,26 +144,26 @@ div.aligncenter {
 
 .alignright {
   float: right;
-  margin: 5px 0 20px 20px;
+  margin: 5px 0 1.25rem 1.25rem;
 }
 
 .alignleft {
   float: left;
-  margin: 5px 20px 20px 0;
+  margin: 5px 1.25rem 1.25rem 0;
 }
 
 a img.alignright {
   float: right;
-  margin: 5px 0 20px 20px;
+  margin: 5px 0 1.25rem 1.25rem;
 }
 
 a img.alignnone {
-  margin: 5px 20px 20px 0;
+  margin: 5px 1.25rem 1.25rem 0;
 }
 
 a img.alignleft {
   float: left;
-  margin: 5px 20px 20px 0;
+  margin: 5px 1.25rem 1.25rem 0;
 }
 
 a img.aligncenter {
@@ -178,13 +178,13 @@ a img.aligncenter {
   text-align: center;
 }
 .wp-caption.alignnone {
-  margin: 5px 20px 20px 0;
+  margin: 5px 1.25rem 1.25rem 0;
 }
 .wp-caption.alignleft {
-  margin: 5px 20px 20px 0;
+  margin: 5px 1.25rem 1.25rem 0;
 }
 .wp-caption.alignright {
-  margin: 5px 0 20px 20px;
+  margin: 5px 0 1.25rem 1.25rem;
 }
 .wp-caption img {
   border: 0 none;
@@ -475,7 +475,7 @@ nav.navbar {
   transition: 0.4s;
 }
 .hamburger-menu .menu-bar2 {
-  width: 25px;
+  width: 1.563rem;
   margin-left: auto;
 }
 .hamburger-menu.active .menu-bar1 {
@@ -581,7 +581,7 @@ body {
 .w-sl .slider-heading li > a {
   font-weight: 500 !important;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 1.25rem;
   color: #212121;
 }
 .w-sl .line,
@@ -1167,3 +1167,314 @@ body {
   }
 }
 /* end achivement */
+/* page shop */
+.w-pshop {
+  padding: 3.063rem 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.w-pshop .pshop-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.w-pshop .pshop-heading > h2 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  text-align: center;
+  color: #057324;
+  max-width: 38.375rem;
+  margin-bottom: 0.688rem;
+}
+.w-pshop .pshop-heading > p {
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.563;
+  text-align: center;
+  color: #474545;
+  margin-bottom: 2.125rem;
+}
+.w-pshop .pshop-heading > div {
+  font-size: 3rem;
+}
+.w-pshop .pshop-line {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  margin-top: 3.125rem;
+}
+.w-pshop .pshop-line > span:nth-child(1),
+.w-pshop .pshop-line > span:nth-child(3) {
+  border: 0.5px solid #000000;
+  width: 27.666%;
+}
+.w-pshop .pshop-line > span:nth-child(2) {
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.563rem;
+  color: #057324;
+  text-align: center;
+}
+
+/* ---------------- */
+.w-pshop .pshop-form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2.5rem;
+}
+.w-pshop .pshop-form > h3 {
+  font-size: 1.5rem;
+  line-height: 1.625rem;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.w-pshop .pshop-input {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.33);
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #fff;
+  position: relative;
+}
+.w-pshop .location-lists {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  transform: translateY(100%);
+  background-color: #fff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  padding-left: 0;
+  width: 100%;
+  height: max-content;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+  display: none;
+  transition: all 2s ease-in;
+  z-index: 10;
+}
+.w-pshop .location-lists li {
+  list-style: none;
+}
+.w-pshop .location-item {
+  display: block;
+  color: #000000;
+  padding: 0.5rem 0.313rem;
+  background-color: #fff;
+  transition: all 0.25s ease-in;
+  border-bottom: 1px solid transparent;
+}
+.w-pshop .location-item:hover {
+  border-bottom: 1px solid #057324;
+  color: #057324;
+}
+.w-pshop .pshop-input:hover .location-lists {
+  display: block;
+}
+.w-pshop .pshop-city {
+  gap: 0 7.188rem;
+}
+.w-pshop .pshop-district {
+  gap: 0 18.75rem;
+}
+
+/* ---------------- */
+.w-pshop .pshop-btn {
+  border: none;
+  background: #057324;
+  padding: 13px 64px;
+  border-radius: 40px;
+  color: #fff;
+  font-size: 1rem;
+  position: relative;
+}
+
+.w-pshop .pshop-btn::after {
+  content: "Xem ngay";
+  font-weight: 500;
+  color: rgb(222, 232, 42);
+  background: #045f1e;
+  padding: 13px 59px;
+  border-radius: 40px;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  position: absolute;
+  bottom: 0%;
+  left: 0;
+  transform: scaleY(0%);
+  transition: all 0.1s ease-in-out;
+}
+
+.w-pshop .pshop-btn:hover::after {
+  display: block;
+  top: 0;
+  left: 0;
+  transform: scaleY(100%);
+}
+/* ---------- */
+.w-pshop .pshop-map {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: rgba(5, 115, 36, 0.62);
+  margin-left: 23%;
+  margin-top: 17px;
+}
+.w-pshop .pshop-maps {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.w-pshop .pshop-list {
+  padding-right: 1.25rem;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  height: 36.313rem;
+}
+.w-pshop .pshop-list::-webkit-scrollbar {
+  width: 5px;
+}
+
+.w-pshop .pshop-list::-webkit-scrollbar-track {
+  background: linear-gradient(0deg, #e3e3e3, #e3e3e3),
+    linear-gradient(0deg, #e3e3e3, #e3e3e3), #e3e3e3;
+  border-radius: 13px;
+}
+
+.w-pshop .pshop-list::-webkit-scrollbar-thumb {
+  background: linear-gradient(0deg, #a7a7a7, #a7a7a7),
+    linear-gradient(0deg, #e3e3e3, #e3e3e3), #e3e3e3;
+  border-radius: 13px;
+}
+.w-pshop .pshop-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem 75px 1rem 13px;
+  background: #ffffff;
+  border: 1px solid rgba(5, 115, 36, 0.52);
+  margin-bottom: 0.2rem;
+  border-radius: 0.313rem;
+}
+.w-pshop .pshop-item > h5 {
+  font-size: 1.25rem;
+  line-height: 1.563rem;
+  color: #212121;
+  margin-bottom: 10px;
+}
+.w-pshop .pshop-location {
+  margin-bottom: 26px;
+}
+.w-pshop .pshop-location > span:nth-child(1) {
+  color: #feb52e;
+}
+.w-pshop .pshop-location > span {
+  font-size: 1.25rem;
+  line-height: 1.563rem;
+  color: #212121;
+  margin-bottom: 26px;
+}
+.w-pshop .pshop-direct {
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  color: #64ae7a;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0 13px;
+}
+.w-pshop .pshop-direct > span:nth-child(1) {
+  position: relative;
+  opacity: 0.7;
+  transition: all 0.5s ease-in-out;
+  color: #057324;
+}
+.w-pshop .pshop-direct > span:nth-child(1)::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid #64ae7a;
+  transition: all 0.5s ease-in-out;
+
+  display: none;
+}
+.w-pshop .pshop-direct > span:nth-child(1):hover {
+  opacity: 1;
+}
+.w-pshop .pshop-direct > span:nth-child(1):hover::before {
+  display: block;
+}
+.w-pshop .pshop-direct > span:nth-child(2) {
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 100%;
+  overflow: hidden;
+  border: 1px solid #64ae7a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+}
+.w-pshop .pshop-right {
+  max-width: 53.125rem;
+  width: 100%;
+  height: 39rem;
+  padding-left: 1.438rem;
+}
+.w-pshop .pshop-right > iframe {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.w-pshop .pshop-os {
+  padding: 3.25rem 0;
+}
+@media (max-width: 1023px) {
+  .w-pshop .pshop-input {
+    width: 100%;
+  }
+  .w-pshop .pshop-form {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem 0;
+  }
+  .w-pshop .pshop-maps {
+    flex-direction: column-reverse;
+    gap: 1.25rem 0;
+  }
+  .w-pshop .pshop-right {
+    height: 28.125rem;
+    padding-left: 0;
+  }
+  .w-pshop .pshop-left {
+    width: 100%;
+  }
+  .w-pshop .pshop-input {
+    justify-content: space-between;
+  }
+  .w-pshop .pshop-list {
+    padding-right: 0;
+  }
+}
+/* Mobile */
+@media (max-width: 739px) {
+  .w-pshop .pshop-map {
+    margin-left: 0;
+  }
+  .w-pshop .pshop-list {
+    padding-right: 0;
+  }
+  .w-pshop .pshop-district {
+    gap: 0;
+  }
+}
+/* end page shop */

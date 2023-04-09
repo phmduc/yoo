@@ -214,6 +214,7 @@ if (!empty($block['align'])) {
 
         </div>
     </div>
+
 </section>
 <?php
 add_action('wp_footer', 'achivementScript', 99, 1);

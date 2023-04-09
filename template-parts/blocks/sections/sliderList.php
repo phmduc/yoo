@@ -30,8 +30,7 @@ if (!empty($block['align'])) {
 
 // Load values and assign defaults.
 ?>
-<section style="background-image: url(<?= get_stylesheet_directory_uri() . '/assets/images/bg-slider.png' ?>);"
-    id="<?php echo esc_attr($id); ?>" class="<?php echo esc_attr($className); ?>">
+<section style="background-image: url(<?= get_stylesheet_directory_uri() . '/assets/images/bg-slider.png' ?>);" id="<?php echo esc_attr($id); ?>" class="<?php echo esc_attr($className); ?>">
     <div class="container">
         <div class="slider-heading">
             <div class="slider-heading-wrapper">
@@ -140,8 +139,6 @@ if (!empty($block['align'])) {
                 </a>
             </div>
         </div>
-
-
         <div>
 </section>
 <?php
@@ -149,8 +146,8 @@ add_action('wp_footer', 'slscript', 99, 1);
 if (!function_exists('slscript')) {
     function slscript()
     { ?>
-<script async>
+        <script async>
 
-</script>
+        </script>
 <?php }
 }
