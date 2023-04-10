@@ -92,7 +92,6 @@ get_header();
                         </h2>
 
                         <div class="list-video">
-                                <!-- <div class="grid grid-cols-3 gap-1 max-w-xl mx-auto p-10 col-md-6 col-sm-12"> -->
                                 <div class="row">
                                         <a data-fancybox="gallery" href="https://www.youtube.com/watch?v=JheD-8yUxSE" class="col-md-6 col-sm-12">
                                                <div class="add-hide">
