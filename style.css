@@ -565,14 +565,18 @@ body {
 
 #main {
   margin-top: 0;
-  padding-top: 9.2rem;
 }
 #main {
 }
 .navbar .container {
-  justify-content: flex-start !important;
+  justify-content: flex-start ;
 }
-
+#navbar{
+  flex: 1;
+}
+#navbar ul{
+  gap: 1rem;
+}
 .navbar-brand {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
@@ -1834,6 +1838,7 @@ body {
 /* online shop */
 .w-os {
   padding: 6.25rem 0;
+  padding-bottom: 20rem;
 }
 .w-os .os-left-desc {
   margin-top: 2rem;
@@ -4886,7 +4891,6 @@ padding-top: 1.063em;
 
 #main {
 	margin-top: 0;
-	padding-top: 9.2rem;
 }
 
 #main {}
