@@ -196,7 +196,7 @@ function tpa_acf_init_block_types() {
             'name'              => 'sliderPost',
             'title'             => __('[W-Section] Slider Post '),
             'description'       => __('Show dự án'),
-            'render_template'   => 'template-parts/blocks/sections/sliderPost.php',
+            'render_template'   => 'template-parts/blocks/sections/slidePost.php',
             'category'          => 'formatting',
             'icon'              => 'block-default',
             'mode'              => 'edit',
