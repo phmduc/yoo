@@ -563,6 +563,10 @@ body {
 /* .problem_box{
 	max-width: 691px !important;
 } */
+.w-problem{
+  padding-top: 8.75rem;
+  padding-bottom: 6.75rem;
+}
 .problem_title {
   font-size: 32px;
   color: #057324;
@@ -698,6 +702,10 @@ body {
 }
 
 /* address */
+.w-address{
+  padding-top: 6.25rem;
+  /* padding-bottom: 40px; */
+}
 .adress_ul li a {
   color: #4b6d6d;
   font-size: 1.125rem;
@@ -1164,6 +1172,12 @@ body {
 }
 .steps_img_item {
   background-image: url("<?=  get_stylesheet_directory_uri() . '/assets/images/vit.png' ?>");
+}
+.w-ap3{
+  padding: 5.25rem 0;
+}
+.w-steps{
+  padding: 5.25rem 0;
 }
 @media screen and (max-width: 900px) {
   .steps_box_cententr {
