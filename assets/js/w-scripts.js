@@ -95,6 +95,27 @@ appHeight();
     });
   });
   
+  $(".w-pageBlogs .slidePageBlogs .slide").slick({
+    infinite: false,
+    dot: false,
+    arrows: true,
+    speed: 300,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    prevArrow:
+      '<button type="button" class="slick-prev slick-arrow"><i class="bi bi-arrow-left-short"></i></button>',
+    nextArrow:
+      '<button type="button" class="slick-next slick-arrow"><i class="bi bi-arrow-right-short"></i></button>',
+    responsive: [
+      {
+        breakpoint: 767,
+        settings: {
+          autoplay: true,
+          autoplaySpeed: 2500,
+        },
+      },
+    ],
+  });
   
   
 }( jQuery ) );

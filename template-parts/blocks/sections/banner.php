@@ -31,7 +31,37 @@ if( !empty($block['align']) ) {
 // Load values and assign defaults.
 ?>
 <section id="<?php echo esc_attr($id); ?>" class="<?php echo esc_attr($className); ?>">
-    <div class="text-center">Banner</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="contentBanner">
+                    <h1>Mẩn ngứa dịu ngay Sạch bay rôm sảy</h1>
+                    <ul class="details">
+                        <li>
+                            <div class="text-details">Lorem ipsum</div>
+                            <div class="text-details">Lorem ipsum</div>
+                        </li>
+                        <li>
+                            <div class="text-details">Lorem ipsum</div>
+                            <div class="text-details">Lorem ipsum</div>
+                        </li>
+                        <li>
+                            <div class="text-details">Lorem ipsum</div>
+                            <div class="text-details">Lorem ipsum</div>
+                        </li>
+                    </ul>
+                    <div class="note">
+                        <div class="icon" style="position: relative;"><img src="<?=  get_stylesheet_directory_uri() . '/assets/images/🦆 icon _mood very good_.webp' ?>" class="img-fluid" style="position: relative;object-fit: cover;" alt=""></div>
+                        <div class="text">
+                            <h5>KHÔNG COTICOID</h5>
+                            <p>An toàn cho trẻ sơ sinh</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="image "><img src="<?=  get_stylesheet_directory_uri() . '/assets/images/cover-fb-C 1.webp' ?>"class="img-fluid" alt=""></div>
 </section>
 <?php 
 add_action( 'wp_footer', 'bannerScripts', 99, 1 );
