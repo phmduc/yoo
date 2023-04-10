@@ -8,7 +8,9 @@
 get_header();
 ?>
 	<div class="wyswyg">
-		
+		<div>
+				
+		</div>
 		</div>
 
 <?php
