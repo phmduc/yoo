@@ -669,7 +669,7 @@ html,body {
 	background-image: url('assets/images/Vector\ 330\ \(Stroke\).webp');
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: contain;
 	top: 50%;
 	left: 50%;
 	z-index: -1;
@@ -1386,6 +1386,34 @@ html,body {
 
 
 /* css footer */
+#footer .copyright{
+	position: relative;
+}
+#footer .copyright::before{
+	content: '';
+	position: absolute;
+	background-image: url('assets/images/Vector\ 330\ \(Stroke\).webp');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	left: 0;
+	bottom: 0;
+	width: 31%;
+    height: 65%;
+}
+#footer .copyright::after{
+	content: '';
+	position: absolute;
+	background-image: url('assets/images/Vector\ 3303\ \(Stroke\).webp');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 16%;
+    height: 33%;
+}
 #footer .social{
 	background: #057324;
 	padding: 2rem 0;
@@ -1458,6 +1486,8 @@ html,body {
     max-width: 100%;
     grid-template-columns: repeat(3, 1fr);
 	gap: 1.2rem;
+	position: relative;
+    z-index: 9;
 }
 #footer .branchs .listBranchs .box{
 	background: #CFFCDB;
