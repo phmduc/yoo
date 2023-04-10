@@ -31,6 +31,7 @@ appHeight();
   $("#hamburger-menu").click(function () {
     $(this).toggleClass("active");
     $(".m-menu").toggleClass("show");
+    $(".overlay").toggleClass("show");
   });
 
   // Loader
@@ -177,6 +178,11 @@ appHeight();
     // autoplay: true,
     // autoplaySpeed: 1000,
   });
-  
+  $(".overlay").click(function () {
+    $("#hamburger-menu").toggleClass("active");
+    $(".m-menu").toggleClass("show");
+    $(".overlay").toggleClass("show");
+  });
 }( jQuery ) );
 
+ 

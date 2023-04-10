@@ -31,16 +31,20 @@ if( !empty($block['align']) ) {
 // Load values and assign defaults.
 ?>
 <section id="<?php echo esc_attr($id); ?>" class="<?php echo esc_attr($className); ?>">
-    <div class="text-center">Page Header</div>
+    <div class="container">
+        <div class="img-ph img-wrap">
+            <img src="<?= get_stylesheet_directory_uri() . '/assets/images/Vector 408.webp' ?>" alt="">
+        </div>
+    </div>
 </section>
 <?php 
 add_action( 'wp_footer', 'phscript', 99, 1 );
 if (!function_exists('phscript'))   {
     function phscript() { ?>
-        <script async>
-            ( function ( $ ) {
-                
-            }( jQuery ) );
-        </script>
-    <?php }
+<script async>
+(function($) {
+
+}(jQuery));
+</script>
+<?php }
 }
