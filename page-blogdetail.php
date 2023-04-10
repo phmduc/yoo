@@ -8,6 +8,10 @@
 get_header();
 ?>
 	<div class="wyswyg">
+		<div class="blog_deatail_boxs">
+		<img src="<?=  get_stylesheet_directory_uri() . '/assets/images/image_13.png' ?>" class="img-fluid background_flower_one" alt="">
+		<img src="<?=  get_stylesheet_directory_uri() . '/assets/images/image_14.png' ?>" class="img-fluid background_flower_two" alt="">
+		<img src="<?=  get_stylesheet_directory_uri() . '/assets/images/Vector_flar.png' ?>" class="img-fluid background_flower_three" alt="">
 		<div class="container">
 			<span class="blog_deatil_span">
 					Xuất bản: 08/11/2022
@@ -19,9 +23,9 @@ get_header();
 				<p class="blog_tacgia_content"> <span>Tác giả</span> Nguyễn Thị Thu hà</p>
 				<p class="blog_tacgia_content"> <span>Tham vấn y khoa</span> Dược sỹ Trần Thị Hà</p>
 			</div>
-			<div class="row">
+			<div class="row pb_35">
 				<div class="col-xl-4 title_content"   >
-					<div class="blog_list_menu sticky  mb-3" >
+					<div class="blog_list_menu   " id="sidebarr"	 >
 						<div class="blog_list_title">
 							<div class="blog_list_text">
 								Nội dung chính 
@@ -64,8 +68,8 @@ get_header();
 						</div>
 					</div>
 				</div>
-				<div class="col-xl-8">
-					<div class="blog_content_box_time">
+				<div class="col-xl-8 ">
+					<div class="blog_content_box_time pt-3">
 						<span class="blog_item_time">2 phút đọc </span>
 						<span class="blog_item_time">Chia sẻ lên Facebook</span>
 					</div>
@@ -177,7 +181,7 @@ get_header();
 				</div>
 			</div>
 		</div>
-		<div class="blog_adress_box sticky-stopper" style="background-image: url(<?= get_stylesheet_directory_uri() . '/assets/images/Vector_427.png' ?>);" >
+		<div class="blog_adress_box sticky-stopper" id="footer" style="background-image: url(<?= get_stylesheet_directory_uri() . '/assets/images/Vector_427.png' ?>);" >
 			
 				<div class="container">
 					<div class="blog_adress">
@@ -453,6 +457,7 @@ get_header();
 			
 		</div>
 			
+		</div>
 		</div>
 	</div>
 	

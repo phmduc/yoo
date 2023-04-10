@@ -62,34 +62,32 @@ appHeight();
      
     });
   });
-  // $( document ).ready(function() {
-  
 
-  //   var $sticky = $('.sticky');
-  //   var $stickyrStopper = $('.sticky-stopper');
-  //   if (!!$sticky.offset()) { // make sure ".sticky" element exists
+
+  $(function() {
+    var top = $('#sidebarr').offset().top - parseFloat($('#sidebarr').css('marginTop').replace(/auto/, 0));
+    var footTop = $('#footer').offset().top - parseFloat($('#footer').css('marginTop').replace(/auto/, 0));
   
-  //     var generalSidebarHeight = $sticky.innerHeight();
-  //     var stickyTop = $sticky.offset().top;
-  //     var stickOffset = 0;
-  //     var stickyStopperPosition = $stickyrStopper.offset().top;
-  //     var stopPoint = stickyStopperPosition - generalSidebarHeight - stickOffset;
-  //     var diff = stopPoint + stickOffset;
-  //     console.log(diff)
-  //     $(window).scroll(function(){ // scroll event
-  //       var windowTop = $(window).scrollTop(); // returns number
+    var maxY = footTop - $('#sidebarr').outerHeight()- 32;
+    console.log(maxY)
+    $(window).scroll(function() {
+      var y = $(this).scrollTop();
+      if (y > top) {
+        if (y < maxY) {
+          $('#sidebarr').addClass('fixed').removeAttr('style');
+        } else {
+          $('#sidebarr').removeClass('fixed').css({
+            position: 'absolute',
+            bottom: 0,
+            width: 386
+          });
+        }
+      } else {
+        $('#sidebarr').removeClass('fixed');
+      }
+    });
+  });
   
-  //       if (stopPoint < windowTop) {
-  //           $sticky.css({ position: 'absolute', botttom: 0 });
-  //       } else if (stickyTop < windowTop+stickOffset) {
-  //           $sticky.css({ position: 'fixed', top: 30 });
-  //       } else {
-  //           $sticky.css({position: 'absolute', top: 'initial'});
-  //       }
-  //     });
-  
-  //   }
-  // });
   
   
 }( jQuery ) );
