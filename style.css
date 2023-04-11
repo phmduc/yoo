@@ -1394,10 +1394,43 @@ html,body {
 }
 
 /* TIN-PAGE-ADVIER */
+.page-adviser{
+	position: relative;
+}
+
+.page-adviser .img-decor1{
+	position: absolute;
+	top: 10%;
+	left: 0;
+}
+
+.page-adviser .img-decor2{
+	position: absolute;
+	left: 0;
+	top: 60%;
+}
+.page-adviser .img-decor2 img{
+	width: 65%;
+}
+
+.page-adviser .img-decor3{
+	position: absolute;
+	right: -5%;
+	top: 22%;
+}
+.page-adviser .img-decor3 img{
+	width: 75%;
+}
+
 .page-adviser .advier-top{
 	padding: 2rem 0;
 	background: #F4FFF7;
 	margin-bottom: 3rem;
+}
+
+.page-adviser .advier-top .container{
+	position: relative;
+	z-index: 99;
 }
 
 .page-adviser .advier-top h2{
@@ -1458,6 +1491,8 @@ html,body {
 .page-adviser .advier-bottom{
 	background-image: url(./assets/images/Group\ \(1\).webp);
 	padding: 2rem 0;
+	position: relative;
+	z-index: 99;
 }
 
 .page-adviser .advier-bottom h2{
@@ -1507,7 +1542,7 @@ html,body {
 }
 .page-adviser .advier-bottom .list-video a:nth-child(even):hover::before{
 	opacity: 1;
-	transform: scale(1, .95);
+	transform: scale(1);
 	overflow: hidden;
 }
 .page-adviser .advier-bottom .list-video a:nth-child(even) .add-hide{
@@ -1612,18 +1647,42 @@ html,body {
 		height: 16rem;
 	}
 	.page-adviser .advier-bottom .list-video a:nth-child(even):hover::before{
-		top: -3%;
-		transform: scale(1, .95);
+		top: -1%;
 		width: 21rem;
 		height: 16rem;
 		overflow: hidden;
+	}
+	
+	.page-adviser .img-decor1{
+		position: absolute;
+		top: 10%;
+	}
+	.page-adviser .img-decor1 img{
+		width: 30%;
+	}
+	
+	.page-adviser .img-decor2{
+		position: absolute;
+		top: 62%;
+	}
+	.page-adviser .img-decor2 img{
+		width: 30%;
+	}
+	
+	.page-adviser .img-decor3{
+		position: absolute;
+		right: -23%;
+		top: 25%;
+	}
+	.page-adviser .img-decor3 img{
+		width: 40%;
 	}
 }
 
 @media (max-width: 541px) {
 	.page-adviser .advier-bottom .list-video .ani-play {
-		left: 13%;
-		top: 5%;
+		left: 15%;
+    	top: 10%;
 	}
 	.page-adviser .advier-bottom .list-video .orther p{
 		padding: 1rem 0;
@@ -1631,5 +1690,29 @@ html,body {
 	.page-adviser .advier-bottom h2,
 	.page-adviser .advier-top h2{
 		font-size: 1.5rem;
+	}
+
+	.page-adviser .img-decor1{
+		display: none;
+	}
+	
+	.page-adviser .img-decor2{
+		display: none;
+	}
+
+	.page-adviser .img-decor3{
+		display: none;
+	}
+
+	.page-adviser .advier-bottom .list-video a:nth-child(even)::before {
+		top: 1%;
+		width: 92%;
+		height: 60.5%;
+	}
+
+	.page-adviser .advier-bottom .list-video a:nth-child(even):hover::before {
+		top: 1%;
+		width: 92%;
+		height: 60.5%;
 	}
 }
