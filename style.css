@@ -18,6 +18,63 @@ Text Domain: weable
 
 /* From http://codex.wordpress.org/CSS */
 
+
+@font-face {
+	font-family: 'Quicksand';
+	src: url('assets/fonts/Quicksand-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}@font-face {
+	font-family: 'Quicksand';
+	src: url('assets/fonts/Quicksand-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}@font-face {
+	font-family: 'Quicksand';
+	src: url('assets/fonts/Quicksand-SemiBold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Mont';
+	src: url('assets/fonts/Montserrat-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Mont';
+	src: url('assets/fonts/Montserrat-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Row';
+	src: url('assets/fonts/Rowdies-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Mont';
+	src: url('assets/fonts/Oswald-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Oswalds';
+	src: url('assets/fonts/Oswald-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+
 @font-face {
 	font-family: 'Gilroy';
 	src: url('assets/fonts/SVN-GilroyMedium.woff') format('woff');
@@ -91,8 +148,8 @@ Text Domain: weable
 }
 
 :root {
-  --heading-font: 'WeableV4', sans-serif;
-  --body-font: 'WeableV4', sans-serif;
+  --heading-font: 'Quicksand', sans-serif;
+  --body-font: 'Quicksand', sans-serif;
   --small-shadow: 0 10px 50px 0 rgb(231 230 236 / 53%);
   --medium-shadow: 0 5px 20px 0 rgb(39 40 40 / 15%);
 }
@@ -605,8 +662,8 @@ body {
 	max-width: 691px !important;
 } */
 .w-problem{
-  padding-top: 8.75rem;
-  padding-bottom: 6.75rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 .problem_title {
   font-size: 32px;
@@ -971,6 +1028,7 @@ body {
 .box_three .product_item_center,
 .box_four .product_item_center {
   text-align: start;
+  font-weight: 600;
 }
 .product_item_center {
   width: 17.813em;
@@ -978,7 +1036,6 @@ body {
 }
 .product_item_center .product_item_h6 {
   color: #0f8843;
-  font-weight: 500 !important;
   margin-bottom: 0.938em;
 }
 @media screen and (max-width: 885px) {
@@ -1215,10 +1272,10 @@ body {
   background-image: url("<?=  get_stylesheet_directory_uri() . '/assets/images/vit.png' ?>");
 }
 .w-ap3{
-  padding: 5.25rem 0;
+  padding: 2rem 0;
 }
 .w-steps{
-  padding: 5.25rem 0;
+  padding: 2rem 0;
 }
 @media screen and (max-width: 900px) {
   .steps_box_cententr {
@@ -1854,6 +1911,10 @@ body {
   padding: 6.25rem 0;
   padding-bottom: 20rem;
 }
+
+.w-os.pshop-os{
+	padding: 6rem 0 !important;
+}
 .w-os .os-left-desc {
   margin-top: 2rem;
   max-width: 30.5rem;
@@ -2405,6 +2466,8 @@ padding-top: 1.063em;
 	margin-bottom: 3rem;
 }
 .w-commit .content .boxContent h3{
+	font-family: "Row", sans-serif;
+	font-weight: 400 !important;
 	color: #057324;
 }
 .w-commit .content .boxContent p{
@@ -3533,7 +3596,7 @@ padding-top: 1.063em;
 .w-pshop .pshop-line > span:nth-child(1),
 .w-pshop .pshop-line > span:nth-child(3) {
   border: 0.5px solid #000000;
-  width: 27.666%;
+  width: 100%;
 }
 .w-pshop .pshop-line > span:nth-child(2) {
   font-weight: 500;
@@ -3862,6 +3925,8 @@ padding-top: 1.063em;
 	color: #057324;
 	width: 85%;
 	margin-bottom: 1rem;
+	font-weight: 400 I !important;
+	font-family: "Row",sans-serif;
 }
 
 .about-product-1 .about-pr .about-para{
@@ -5446,12 +5511,13 @@ padding-top: 1.063em;
 
 /* header */
 header .navbar-expand-md .navbar-nav .nav-link {
-	font-size: .9rem;
+	font-size: 1rem;
 	color: #058729 !important;
 	font-weight: 400;
 	text-transform: unset;
 	transition: all .3s ease;
 	position: relative;
+	font-family: "Oswalds",sans-serif;
 }
 
 header .navbar-expand-md .navbar-nav .nav-link::after {
