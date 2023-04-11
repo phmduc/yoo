@@ -45,7 +45,7 @@ if( !empty($block['align']) ) {
             </li>
             <li class="items">
                 <div class="icon">
-                    <img src="<?= get_stylesheet_directory_uri() . '/assets/images/Group 911.webp' ?>" alt=""
+                    <img src="<?= get_stylesheet_directory_uri() . '/assets/images/Group.webp' ?>" alt=""
                         class="img-fluid">
                 </div>
                 <div class="icon-content">

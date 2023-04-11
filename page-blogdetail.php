@@ -303,37 +303,31 @@ get_header();
 	
 		</div>
 		
-		<div class="blog_sl mt-4">
-			
-					<h4 class="problem_title">
-						Bài viết chuyên mục
-					</h4>	
-			
-								
-					
-
-        
-        <div class="row blog-slider-list-container mt-4">
-            <div class="col-lg-3 blog_item">
-                <div href="#" class="slider-card">
-                    <div class="slider-image">
-                        <img src="<?= get_stylesheet_directory_uri() . '/assets/images/Rectangle_81.png' ?>" class="img-fluid" alt="" />
-                       
-                    </div>
-                   <div class="blog_slide_box">
-							<div class="blog_slide_content">
+		<div class="blog_sl py-5 mt-4">
+			<div class="container">
+				<h4 class="problem_title">
+					Bài viết chuyên mục
+				</h4>	
+				<div class="row blog-slider-list-container mt-4">
+					<div class="col-lg-3 blog_item">
+						<a href="#" class="slider-card">
+							<div class="slider-image">
+								<img src="<?= get_stylesheet_directory_uri() . '/assets/images/Rectangle_81.png' ?>" class="img-fluid" alt="" />
+							</div>
+							<div class="blog_slide_box">
+								<div class="blog_slide_content">
 									<div class="card-body">
 										<div class="blog_slide_item">
-												<p class="blog_silde_p">
-													Tác giả: <span>Nguyễn Thị Thu hà</span>
-												</p>
-												<p class="blog_silde_p">
-													Tham vấn y khoa: <span>Dược sĩ Trần Thị Hà</span>
-												</p>
+											<p class="blog_silde_p">
+												Tác giả: <span>Nguyễn Thị Thu hà</span>
+											</p>
+											<p class="blog_silde_p">
+												Tham vấn y khoa: <span>Dược sĩ Trần Thị Hà</span>
+											</p>
 										</div>
 									</div>
-							</div>
-							<div class="blog_slide_bootom">
+								</div>
+								<div class="blog_slide_bootom">
 									<div class="card-body">
 										<div class="blog_slidee_bottom_title">
 											<h5 class="blog_slide_bottom_h5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
@@ -342,32 +336,30 @@ get_header();
 											</p>
 										</div>
 									</div>
+								</div>
 							</div>
+						</a>
+					</div>
+					<div class="col-lg-3 blog_item">
+						<a href="#" class="slider-card">
+							<div class="slider-image">
+								<img src="<?= get_stylesheet_directory_uri() . '/assets/images/Rectangle_81.png' ?>" class="img-fluid" alt="" />
 							
-				   </div>
-
-                </div>
-            </div>
-			<div class="col-lg-3 blog_item">
-                <div href="#" class="slider-card">
-                    <div class="slider-image">
-                        <img src="<?= get_stylesheet_directory_uri() . '/assets/images/Rectangle_81.png' ?>" class="img-fluid" alt="" />
-                       
-                    </div>
-                   <div class="blog_slide_box">
-							<div class="blog_slide_content">
+							</div>
+							<div class="blog_slide_box">
+								<div class="blog_slide_content">
 									<div class="card-body">
 										<div class="blog_slide_item">
-												<p class="blog_silde_p">
-													Tác giả: <span>Nguyễn Thị Thu hà</span>
-												</p>
-												<p class="blog_silde_p">
-													Tham vấn y khoa: <span>Dược sĩ Trần Thị Hà</span>
-												</p>
+											<p class="blog_silde_p">
+												Tác giả: <span>Nguyễn Thị Thu hà</span>
+											</p>
+											<p class="blog_silde_p">
+												Tham vấn y khoa: <span>Dược sĩ Trần Thị Hà</span>
+											</p>
 										</div>
 									</div>
-							</div>
-							<div class="blog_slide_bootom">
+								</div>
+								<div class="blog_slide_bootom">
 									<div class="card-body">
 										<div class="blog_slidee_bottom_title">
 											<h5 class="blog_slide_bottom_h5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
@@ -376,32 +368,30 @@ get_header();
 											</p>
 										</div>
 									</div>
+								</div>
 							</div>
+						</a>
+					</div>
+					<div class="col-lg-3 blog_item">
+						<a href="#" class="slider-card">
+							<div class="slider-image">
+								<img src="<?= get_stylesheet_directory_uri() . '/assets/images/Rectangle_81.png' ?>" class="img-fluid" alt="" />
 							
-				   </div>
-
-                </div>
-            </div>
-			<div class="col-lg-3 blog_item">
-                <div href="#" class="slider-card">
-                    <div class="slider-image">
-                        <img src="<?= get_stylesheet_directory_uri() . '/assets/images/Rectangle_81.png' ?>" class="img-fluid" alt="" />
-                       
-                    </div>
-                   <div class="blog_slide_box">
-							<div class="blog_slide_content">
+							</div>
+							<div class="blog_slide_box">
+								<div class="blog_slide_content">
 									<div class="card-body">
 										<div class="blog_slide_item">
-												<p class="blog_silde_p">
-													Tác giả: <span>Nguyễn Thị Thu hà</span>
-												</p>
-												<p class="blog_silde_p">
-													Tham vấn y khoa: <span>Dược sĩ Trần Thị Hà</span>
-												</p>
+											<p class="blog_silde_p">
+												Tác giả: <span>Nguyễn Thị Thu hà</span>
+											</p>
+											<p class="blog_silde_p">
+												Tham vấn y khoa: <span>Dược sĩ Trần Thị Hà</span>
+											</p>
 										</div>
 									</div>
-							</div>
-							<div class="blog_slide_bootom">
+								</div>
+								<div class="blog_slide_bootom">
 									<div class="card-body">
 										<div class="blog_slidee_bottom_title">
 											<h5 class="blog_slide_bottom_h5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
@@ -410,32 +400,30 @@ get_header();
 											</p>
 										</div>
 									</div>
+								</div>
 							</div>
+						</a>
+					</div>
+					<div class="col-lg-3 blog_item">
+						<a href="#" class="slider-card">
+							<div class="slider-image">
+								<img src="<?= get_stylesheet_directory_uri() . '/assets/images/Rectangle_81.png' ?>" class="img-fluid" alt="" />
 							
-				   </div>
-
-                </div>
-            </div>
-			<div class="col-lg-3 blog_item">
-                <div href="#" class="slider-card">
-                    <div class="slider-image">
-                        <img src="<?= get_stylesheet_directory_uri() . '/assets/images/Rectangle_81.png' ?>" class="img-fluid" alt="" />
-                       
-                    </div>
-                   <div class="blog_slide_box">
-							<div class="blog_slide_content">
+							</div>
+							<div class="blog_slide_box">
+								<div class="blog_slide_content">
 									<div class="card-body">
 										<div class="blog_slide_item">
-												<p class="blog_silde_p">
-													Tác giả: <span>Nguyễn Thị Thu hà</span>
-												</p>
-												<p class="blog_silde_p">
-													Tham vấn y khoa: <span>Dược sĩ Trần Thị Hà</span>
-												</p>
+											<p class="blog_silde_p">
+												Tác giả: <span>Nguyễn Thị Thu hà</span>
+											</p>
+											<p class="blog_silde_p">
+												Tham vấn y khoa: <span>Dược sĩ Trần Thị Hà</span>
+											</p>
 										</div>
 									</div>
-							</div>
-							<div class="blog_slide_bootom">
+								</div>
+								<div class="blog_slide_bootom">
 									<div class="card-body">
 										<div class="blog_slidee_bottom_title">
 											<h5 class="blog_slide_bottom_h5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
@@ -444,29 +432,15 @@ get_header();
 											</p>
 										</div>
 									</div>
+								</div>
 							</div>
-							
-				   </div>
-
-                </div>
-            </div>
-            
-        </div>
-      
-			
-			
-		</div>
-			
-		</div>
+						</a>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
-	
 	<script>
-		
-	
-
-
-									
 		 const blog_list_title = document.querySelector(".blog_list_title")
 		 const  blog_list_item = document.querySelector(".blog_list_item")
 		 const blog_drow = document.querySelector(".blog_drow")
@@ -475,37 +449,36 @@ get_header();
 			blog_drow.classList.toggle("reverse")
 			blog_list_title.classList.toggle("bortom_none")
 		 })
-
 		const $ = document.querySelector.bind(document);
-const $$ = document.querySelectorAll.bind(document);
+		const $$ = document.querySelectorAll.bind(document);
 
-const tabs = $$(".tab-item");
-const panes = $$(".tab-pane");
+		const tabs = $$(".tab-item");
+		const panes = $$(".tab-pane");
 
-const tabActive = $(".tab-item.active");
-const line = $(".tabs .line");
+		const tabActive = $(".tab-item.active");
+		const line = $(".tabs .line");
 
-// SonDN fixed - Active size wrong size on first load.
-// Original post: https://www.facebook.com/groups/649972919142215/?multi_permalinks=1175881616551340
-requestIdleCallback(function () {
-  line.style.left = tabActive.offsetLeft + "px";
-  line.style.width = tabActive.offsetWidth + "px";
-});
+		// SonDN fixed - Active size wrong size on first load.
+		// Original post: https://www.facebook.com/groups/649972919142215/?multi_permalinks=1175881616551340
+		requestIdleCallback(function () {
+		line.style.left = tabActive.offsetLeft + "px";
+		line.style.width = tabActive.offsetWidth + "px";
+		});
 
-tabs.forEach((tab, index) => {
-  const pane = panes[index];
+		tabs.forEach((tab, index) => {
+		const pane = panes[index];
 
-  tab.onclick = function () {
-    $(".tab-item.active").classList.remove("active");
-    $(".tab-pane.active").classList.remove("active");
+		tab.onclick = function () {
+			$(".tab-item.active").classList.remove("active");
+			$(".tab-pane.active").classList.remove("active");
 
-    line.style.left = this.offsetLeft + "px";
-    line.style.width = this.offsetWidth + "px";
+			line.style.left = this.offsetLeft + "px";
+			line.style.width = this.offsetWidth + "px";
 
-    this.classList.add("active");
-    pane.classList.add("active");
-  };
-});
+			this.classList.add("active");
+			pane.classList.add("active");
+		};
+		});
 
 	</script>
 <?php

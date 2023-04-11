@@ -31,7 +31,7 @@ if( !empty($block['align']) ) {
 // Load values and assign defaults.
 ?>
 <section id="<?php echo esc_attr($id); ?>" class="<?php echo esc_attr($className); ?>">
-    <div class="container w-problem">
+    <div class="container ">
          <div class="row">
             <div class="col-xl-6">
                 <div class="problem_box">

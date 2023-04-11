@@ -106,7 +106,7 @@
         <div class="overlay"></div>
 
         <main id="main"
-            class="<?= (is_page_template('page-full.php')) || (is_page_template('page-blog.php')) || (is_page_template('page-shop.php')) || (is_page_template('page-adviser.php')) || (is_page_template('page-feel.php')) ? 'w-builder' : 'container' ?>"
+            class="<?= (is_page_template('page-full.php')) || (is_page_template('page-blog.php')) || (is_page_template('page-blogdetail.php')) || (is_page_template('page-shop.php')) || (is_page_template('page-adviser.php')) || (is_page_template('page-feel.php')) ? 'w-builder' : 'container' ?>"
             <?php if ( isset( $navbar_position ) && 'fixed_top' === $navbar_position ) : echo ' style="padding-top: 57px;"'; elseif ( isset( $navbar_position ) && 'fixed_bottom' === $navbar_position ) : echo ' style="padding-bottom: 100px;"'; endif; ?>>
             <?php
 			// If Single or Archive (Category, Tag, Author or a Date based page).

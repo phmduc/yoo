@@ -13,7 +13,7 @@ get_header();
             <div class="row">
                 <div class="col-lg-8 col-md-6">
                     <div class="posts">
-                        <a href="#" class="items">
+                        <a href="/blog-detail/" class="items">
                             <div class="img-wrap">
                                 <img src="https://source.unsplash.com/random/1" alt="">
                             </div>
@@ -27,7 +27,7 @@ get_header();
                                 </div>
                             </div>
                         </a>
-                        <a href="#" class="items">
+                        <a href="/blog-detail/" class="items">
                             <div class="img-wrap">
                                 <img src="https://source.unsplash.com/random/2" alt="">
                             </div>
@@ -41,7 +41,7 @@ get_header();
                                 </div>
                             </div>
                         </a>
-                        <a href="#" class="items">
+                        <a href="/blog-detail/" class="items">
                             <div class="img-wrap">
                                 <img src="https://source.unsplash.com/random/3" alt="">
                             </div>
@@ -55,7 +55,7 @@ get_header();
                                 </div>
                             </div>
                         </a>
-                        <a href="#" class="items">
+                        <a href="/blog-detail/" class="items">
                             <div class="img-wrap">
                                 <img src="https://source.unsplash.com/random/4" alt="">
                             </div>
@@ -69,7 +69,7 @@ get_header();
                                 </div>
                             </div>
                         </a>
-                        <a href="#" class="items">
+                        <a href="/blog-detail/" class="items">
                             <div class="img-wrap">
                                 <img src="https://source.unsplash.com/random/5" alt="">
                             </div>
@@ -83,7 +83,7 @@ get_header();
                                 </div>
                             </div>
                         </a>
-                        <a href="#" class="items">
+                        <a href="/blog-detail/" class="items">
                             <div class="img-wrap">
                                 <img src="https://source.unsplash.com/random/6" alt="">
                             </div>
@@ -97,7 +97,7 @@ get_header();
                                 </div>
                             </div>
                         </a>
-                        <a href="#" class="items">
+                        <a href="/blog-detail/" class="items">
                             <div class="img-wrap">
                                 <img src="https://source.unsplash.com/random/7" alt="">
                             </div>
@@ -111,7 +111,7 @@ get_header();
                                 </div>
                             </div>
                         </a>
-                        <a href="#" class="items">
+                        <a href="/blog-detail/" class="items">
                             <div class="img-wrap">
                                 <img src="https://source.unsplash.com/random/8" alt="">
                             </div>
@@ -144,42 +144,42 @@ get_header();
                         <h4>Cảm nhận người dùng</h4>
                         <div class="boxFeels">
                             <div class="image">
-                                <a href="#" class="d-block"><img src="https://source.unsplash.com/random/11"
+                                <a href="/blog-detail/" class="d-block"><img src="https://source.unsplash.com/random/11"
                                         class="img-fluid" alt=""></a>
                             </div>
-                            <a href="#" class="text d-block">Bảo Thanh “Về Nhà Đi Con” bật mí công dụng mới của Yoosun
+                            <a href="/blog-detail/" class="text d-block">Bảo Thanh “Về Nhà Đi Con” bật mí công dụng mới của Yoosun
                                 Rau Má...</a>
                         </div>
                         <div class="boxFeels">
                             <div class="image">
-                                <a href="#" class="d-block"><img src="https://source.unsplash.com/random/12"
+                                <a href="/blog-detail/" class="d-block"><img src="https://source.unsplash.com/random/12"
                                         class="img-fluid" alt=""></a>
                             </div>
-                            <a href="#" class="text d-block">Bảo Thanh “Về Nhà Đi Con” bật mí công dụng mới của Yoosun
+                            <a href="/blog-detail/" class="text d-block">Bảo Thanh “Về Nhà Đi Con” bật mí công dụng mới của Yoosun
                                 Rau Má...</a>
                         </div>
                         <div class="boxFeels">
                             <div class="image">
-                                <a href="#" class="d-block"><img src="https://source.unsplash.com/random/13"
+                                <a href="/blog-detail/" class="d-block"><img src="https://source.unsplash.com/random/13"
                                         class="img-fluid" alt=""></a>
                             </div>
-                            <a href="#" class="text d-block">Bảo Thanh “Về Nhà Đi Con” bật mí công dụng mới của Yoosun
+                            <a href="/blog-detail/" class="text d-block">Bảo Thanh “Về Nhà Đi Con” bật mí công dụng mới của Yoosun
                                 Rau Má...</a>
                         </div>
                         <div class="boxFeels">
                             <div class="image">
-                                <a href="#" class="d-block"><img src="https://source.unsplash.com/random/14"
+                                <a href="/blog-detail/" class="d-block"><img src="https://source.unsplash.com/random/14"
                                         class="img-fluid" alt=""></a>
                             </div>
-                            <a href="#" class="text d-block">Bảo Thanh “Về Nhà Đi Con” bật mí công dụng mới của Yoosun
+                            <a href="/blog-detail/" class="text d-block">Bảo Thanh “Về Nhà Đi Con” bật mí công dụng mới của Yoosun
                                 Rau Má...</a>
                         </div>
                         <div class="boxFeels">
                             <div class="image">
-                                <a href="#" class="d-block"><img src="https://source.unsplash.com/random/15"
+                                <a href="/blog-detail/" class="d-block"><img src="https://source.unsplash.com/random/15"
                                         class="img-fluid" alt=""></a>
                             </div>
-                            <a href="#" class="text d-block">Bảo Thanh “Về Nhà Đi Con” bật mí công dụng mới của Yoosun
+                            <a href="/blog-detail/" class="text d-block">Bảo Thanh “Về Nhà Đi Con” bật mí công dụng mới của Yoosun
                                 Rau Má...</a>
                         </div>
                     </div>
@@ -194,27 +194,27 @@ get_header();
                         <h4>Bài viết quan tâm nhất</h4>
                         <div class="item">
                             <span>1</span>
-                            <a href="#">Review kem Yoosun Rau Má: Thành phần, công dụng, giá cả, địa chỉ bán.</a>
+                            <a href="/blog-detail/">Review kem Yoosun Rau Má: Thành phần, công dụng, giá cả, địa chỉ bán.</a>
                         </div>
                         <div class="item">
                             <span>2</span>
-                            <a href="#">Review kem Yoosun Rau Má: Thành phần, công dụng, giá cả, địa chỉ bán.</a>
+                            <a href="/blog-detail/">Review kem Yoosun Rau Má: Thành phần, công dụng, giá cả, địa chỉ bán.</a>
                         </div>
                         <div class="item">
                             <span>3</span>
-                            <a href="#">Review kem Yoosun Rau Má: Thành phần, công dụng, giá cả, địa chỉ bán.</a>
+                            <a href="/blog-detail/">Review kem Yoosun Rau Má: Thành phần, công dụng, giá cả, địa chỉ bán.</a>
                         </div>
                         <div class="item">
                             <span>4</span>
-                            <a href="#">Review kem Yoosun Rau Má: Thành phần, công dụng, giá cả, địa chỉ bán.</a>
+                            <a href="/blog-detail/">Review kem Yoosun Rau Má: Thành phần, công dụng, giá cả, địa chỉ bán.</a>
                         </div>
                         <div class="item">
                             <span>5</span>
-                            <a href="#">Review kem Yoosun Rau Má: Thành phần, công dụng, giá cả, địa chỉ bán.</a>
+                            <a href="/blog-detail/">Review kem Yoosun Rau Má: Thành phần, công dụng, giá cả, địa chỉ bán.</a>
                         </div>
                         <div class="item">
                             <span>6</span>
-                            <a href="#">Review kem Yoosun Rau Má: Thành phần, công dụng, giá cả, địa chỉ bán.</a>
+                            <a href="/blog-detail/">Review kem Yoosun Rau Má: Thành phần, công dụng, giá cả, địa chỉ bán.</a>
                         </div>
                     </div>
                 </div>

@@ -17,27 +17,27 @@ get_header();
 					<div class="col-12">
 						<div class="slide">
 							<div class="boxItem">
-								<a href="#" class="image  img-wrap"><img src="<?=  get_stylesheet_directory_uri() . '/assets/images/Rectangle 79.webp' ?>" alt=""></a>
+								<a href="/blog-detail/" class="image  img-wrap"><img src="<?=  get_stylesheet_directory_uri() . '/assets/images/Rectangle 79.webp' ?>" alt=""></a>
 								<div class="content">
 									<div class="author">
-										<div class="div">Tác giả: <a href="#">Nguyễn Thị Thu Hà</a></div>
-										<div class="div">Tham vấn y khoa: <a href="#">Dược sĩ Trần Thị Hà</a></div>
+										<div class="div">Tác giả: <a href="/blog-detail/">Nguyễn Thị Thu Hà</a></div>
+										<div class="div">Tham vấn y khoa: <a href="/blog-detail/">Dược sĩ Trần Thị Hà</a></div>
 									</div>
-									<h2><a href="#">Kiến cắn sưng to, ngứa, làm mủ phải làm sao? Cách trị kiến đốt an toàn</a></h2>
+									<h2><a href="/blog-detail/">Kiến cắn sưng to, ngứa, làm mủ phải làm sao? Cách trị kiến đốt an toàn</a></h2>
 									<p>Bị kiến cắn gây cảm giác ngứa, có khi đau nhói rất khó chịu, đặc biệt là đối với người có làn da nhạy cảm hoặc trẻ nhỏ. Tìm hiểu về dấu hiệu và cách giảm sưng ngứa nốt kiến đốt sẽ giúp chúng ta có thêm kinh nghiệm xử lý khi gặp tình huống này.</p>
-									<a href="#" class="view">Đọc tin<div class="icon"><i class="bi bi-chevron-right"></i></div></a>
+									<a href="/blog-detail/" class="view">Đọc tin<div class="icon"><i class="bi bi-chevron-right"></i></div></a>
 								</div>
 							</div>
 							<div class="boxItem">
-								<a href="#" class="image  img-wrap"><img src="<?=  get_stylesheet_directory_uri() . '/assets/images/Rectangle 79.webp' ?>" alt=""></a>
+								<a href="/blog-detail/" class="image  img-wrap"><img src="<?=  get_stylesheet_directory_uri() . '/assets/images/Rectangle 79.webp' ?>" alt=""></a>
 								<div class="content">
 									<div class="author">
-										<div class="div">Tác giả: <a href="#">Nguyễn Thị Thu Hà</a></div>
-										<div class="div">Tham vấn y khoa: <a href="#">Dược sĩ Trần Thị Hà</a></div>
+										<div class="div">Tác giả: <a href="/blog-detail/">Nguyễn Thị Thu Hà</a></div>
+										<div class="div">Tham vấn y khoa: <a href="/blog-detail/">Dược sĩ Trần Thị Hà</a></div>
 									</div>
-									<h2><a href="#">Kiến cắn sưng to, ngứa, làm mủ phải làm sao? Cách trị kiến đốt an toàn</a></h2>
+									<h2><a href="/blog-detail/">Kiến cắn sưng to, ngứa, làm mủ phải làm sao? Cách trị kiến đốt an toàn</a></h2>
 									<p>Bị kiến cắn gây cảm giác ngứa, có khi đau nhói rất khó chịu, đặc biệt là đối với người có làn da nhạy cảm hoặc trẻ nhỏ. Tìm hiểu về dấu hiệu và cách giảm sưng ngứa nốt kiến đốt sẽ giúp chúng ta có thêm kinh nghiệm xử lý khi gặp tình huống này.</p>
-									<a href="#" class="view">Đọc tin<div class="icon"><i class="bi bi-chevron-right"></i></div></a>
+									<a href="/blog-detail/" class="view">Đọc tin<div class="icon"><i class="bi bi-chevron-right"></i></div></a>
 								</div>
 							</div>
 						</div>
@@ -55,7 +55,7 @@ get_header();
 					<div class="col-lg-8 col-md-6">
 						<div class="newsBlogs">
 							<div class="itemBlog">
-								<a href="#" class="img-wrap d-block">
+								<a href="/blog-detail/" class="img-wrap d-block">
 									<img src="<?=  get_stylesheet_directory_uri() . '/assets/images/Rectangle 81.webp' ?>" class="imgOne" alt="">
 									<img src="<?=  get_stylesheet_directory_uri() . '/assets/images/Rectangle 81 (1).webp' ?>" class="imgTwo" alt="">
 									<div class="btn-link">Đọc tin
@@ -68,13 +68,13 @@ get_header();
 										<p>Tham vấn y khoa:  <span>Dược sĩ Trần Thị Hà</span></p>
 									</div>
 									<div class="text">
-										<a href="#" class="title d-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+										<a href="/blog-detail/" class="title d-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
 										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut purus in eni</p>
 									</div>
 								</div>
 							</div>
 							<div class="itemBlog">
-								<a href="#" class="img-wrap d-block">
+								<a href="/blog-detail/" class="img-wrap d-block">
 									<img src="<?=  get_stylesheet_directory_uri() . '/assets/images/Rectangle 81.webp' ?>" class="imgOne" alt="">
 									<img src="<?=  get_stylesheet_directory_uri() . '/assets/images/Rectangle 81 (1).webp' ?>" class="imgTwo" alt="">
 									<div class="btn-link">Đọc tin
@@ -87,13 +87,13 @@ get_header();
 										<p>Tham vấn y khoa:  <span>Dược sĩ Trần Thị Hà</span></p>
 									</div>
 									<div class="text">
-										<a href="#" class="title d-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+										<a href="/blog-detail/" class="title d-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
 										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut purus in eni</p>
 									</div>
 								</div>
 							</div>
 							<div class="itemBlog">
-								<a href="#" class="img-wrap d-block">
+								<a href="/blog-detail/" class="img-wrap d-block">
 									<img src="<?=  get_stylesheet_directory_uri() . '/assets/images/Rectangle 81.webp' ?>" class="imgOne" alt="">
 									<img src="<?=  get_stylesheet_directory_uri() . '/assets/images/Rectangle 81 (1).webp' ?>" class="imgTwo" alt="">
 									<div class="btn-link">Đọc tin
@@ -106,13 +106,13 @@ get_header();
 										<p>Tham vấn y khoa:  <span>Dược sĩ Trần Thị Hà</span></p>
 									</div>
 									<div class="text">
-										<a href="#" class="title d-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+										<a href="/blog-detail/" class="title d-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
 										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut purus in eni</p>
 									</div>
 								</div>
 							</div>
 							<div class="itemBlog">
-								<a href="#" class="img-wrap d-block">
+								<a href="/blog-detail/" class="img-wrap d-block">
 									<img src="<?=  get_stylesheet_directory_uri() . '/assets/images/Rectangle 81.webp' ?>" class="imgOne" alt="">
 									<img src="<?=  get_stylesheet_directory_uri() . '/assets/images/Rectangle 81 (1).webp' ?>" class="imgTwo" alt="">
 									<div class="btn-link">Đọc tin
@@ -125,7 +125,7 @@ get_header();
 										<p>Tham vấn y khoa:  <span>Dược sĩ Trần Thị Hà</span></p>
 									</div>
 									<div class="text">
-										<a href="#" class="title d-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+										<a href="/blog-detail/" class="title d-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
 										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut purus in eni</p>
 									</div>
 								</div>
@@ -133,14 +133,14 @@ get_header();
 						</div>
 						<nav aria-label="Page navigation example">
 							<ul class="pagination">
-								<li class="page-item active"><a class="page-link" href="#">1</a></li>
-								<li class="page-item"><a class="page-link" href="#">2</a></li>
-								<li class="page-item"><a class="page-link" href="#">3</a></li>
-								<li class="page-item"><a class="page-link" href="#">4</a></li>
-								<li class="page-item"><a class="page-link" href="#">5</a></li>
-								<li class="page-item"><a class="page-link" href="#">...</a></li>
-								<li class="page-item"><a class="page-link" href="#">18</a></li>
-								<li class="page-item"><a class="page-link" href="#">Next</a></li>
+								<li class="page-item active"><a class="page-link" href="/blog-detail/">1</a></li>
+								<li class="page-item"><a class="page-link" href="/blog-detail/">2</a></li>
+								<li class="page-item"><a class="page-link" href="/blog-detail/">3</a></li>
+								<li class="page-item"><a class="page-link" href="/blog-detail/">4</a></li>
+								<li class="page-item"><a class="page-link" href="/blog-detail/">5</a></li>
+								<li class="page-item"><a class="page-link" href="/blog-detail/">...</a></li>
+								<li class="page-item"><a class="page-link" href="/blog-detail/">18</a></li>
+								<li class="page-item"><a class="page-link" href="/blog-detail/">Next</a></li>
 							</ul>
 						</nav>
 					</div> 
@@ -150,33 +150,33 @@ get_header();
 							<h4>Cảm nhận người dùng</h4>
 							<div class="boxFeels">
 								<div class="image">
-									<a href="#" class="d-block"><img src="<?=  get_stylesheet_directory_uri() . '/assets/images/Rectangle 81.webp' ?>" class="img-fluid" alt=""></a>
+									<a href="/blog-detail/" class="d-block"><img src="<?=  get_stylesheet_directory_uri() . '/assets/images/Rectangle 81.webp' ?>" class="img-fluid" alt=""></a>
 								</div>
-								<a href="#" class="text d-block" >Bảo Thanh “Về Nhà Đi Con” bật mí công dụng mới của Yoosun Rau Má...</a>
+								<a href="/blog-detail/" class="text d-block" >Bảo Thanh “Về Nhà Đi Con” bật mí công dụng mới của Yoosun Rau Má...</a>
 							</div>
 							<div class="boxFeels">
 								<div class="image">
-									<a href="#" class="d-block"><img src="<?=  get_stylesheet_directory_uri() . '/assets/images/Rectangle 81.webp' ?>" class="img-fluid" alt=""></a>
+									<a href="/blog-detail/" class="d-block"><img src="<?=  get_stylesheet_directory_uri() . '/assets/images/Rectangle 81.webp' ?>" class="img-fluid" alt=""></a>
 								</div>
-								<a href="#" class="text d-block" >Bảo Thanh “Về Nhà Đi Con” bật mí công dụng mới của Yoosun Rau Má...</a>
+								<a href="/blog-detail/" class="text d-block" >Bảo Thanh “Về Nhà Đi Con” bật mí công dụng mới của Yoosun Rau Má...</a>
 							</div>
 							<div class="boxFeels">
 								<div class="image">
-									<a href="#" class="d-block"><img src="<?=  get_stylesheet_directory_uri() . '/assets/images/Rectangle 81.webp' ?>" class="img-fluid" alt=""></a>
+									<a href="/blog-detail/" class="d-block"><img src="<?=  get_stylesheet_directory_uri() . '/assets/images/Rectangle 81.webp' ?>" class="img-fluid" alt=""></a>
 								</div>
-								<a href="#" class="text d-block" >Bảo Thanh “Về Nhà Đi Con” bật mí công dụng mới của Yoosun Rau Má...</a>
+								<a href="/blog-detail/" class="text d-block" >Bảo Thanh “Về Nhà Đi Con” bật mí công dụng mới của Yoosun Rau Má...</a>
 							</div>
 							<div class="boxFeels">
 								<div class="image">
-									<a href="#" class="d-block"><img src="<?=  get_stylesheet_directory_uri() . '/assets/images/Rectangle 81.webp' ?>" class="img-fluid" alt=""></a>
+									<a href="/blog-detail/" class="d-block"><img src="<?=  get_stylesheet_directory_uri() . '/assets/images/Rectangle 81.webp' ?>" class="img-fluid" alt=""></a>
 								</div>
-								<a href="#" class="text d-block" >Bảo Thanh “Về Nhà Đi Con” bật mí công dụng mới của Yoosun Rau Má...</a>
+								<a href="/blog-detail/" class="text d-block" >Bảo Thanh “Về Nhà Đi Con” bật mí công dụng mới của Yoosun Rau Má...</a>
 							</div>
 							<div class="boxFeels">
 								<div class="image">
-									<a href="#" class="d-block"><img src="<?=  get_stylesheet_directory_uri() . '/assets/images/Rectangle 81.webp' ?>" class="img-fluid" alt=""></a>
+									<a href="/blog-detail/" class="d-block"><img src="<?=  get_stylesheet_directory_uri() . '/assets/images/Rectangle 81.webp' ?>" class="img-fluid" alt=""></a>
 								</div>
-								<a href="#" class="text d-block" >Bảo Thanh “Về Nhà Đi Con” bật mí công dụng mới của Yoosun Rau Má...</a>
+								<a href="/blog-detail/" class="text d-block" >Bảo Thanh “Về Nhà Đi Con” bật mí công dụng mới của Yoosun Rau Má...</a>
 							</div>
 						</div>
 						<div class="videos">
@@ -187,27 +187,27 @@ get_header();
 							<h4>Bài viết quan tâm nhất</h4>
 							<div class="item">
 								<span>1</span>
-								<a href="#">Review kem Yoosun Rau Má: Thành phần, công dụng, giá cả, địa chỉ bán.</a>
+								<a href="/blog-detail/">Review kem Yoosun Rau Má: Thành phần, công dụng, giá cả, địa chỉ bán.</a>
 							</div>
 							<div class="item">
 								<span>2</span>
-								<a href="#">Review kem Yoosun Rau Má: Thành phần, công dụng, giá cả, địa chỉ bán.</a>
+								<a href="/blog-detail/">Review kem Yoosun Rau Má: Thành phần, công dụng, giá cả, địa chỉ bán.</a>
 							</div>
 							<div class="item">
 								<span>3</span>
-								<a href="#">Review kem Yoosun Rau Má: Thành phần, công dụng, giá cả, địa chỉ bán.</a>
+								<a href="/blog-detail/">Review kem Yoosun Rau Má: Thành phần, công dụng, giá cả, địa chỉ bán.</a>
 							</div>
 							<div class="item">
 								<span>4</span>
-								<a href="#">Review kem Yoosun Rau Má: Thành phần, công dụng, giá cả, địa chỉ bán.</a>
+								<a href="/blog-detail/">Review kem Yoosun Rau Má: Thành phần, công dụng, giá cả, địa chỉ bán.</a>
 							</div>
 							<div class="item">
 								<span>5</span>
-								<a href="#">Review kem Yoosun Rau Má: Thành phần, công dụng, giá cả, địa chỉ bán.</a>
+								<a href="/blog-detail/">Review kem Yoosun Rau Má: Thành phần, công dụng, giá cả, địa chỉ bán.</a>
 							</div>
 							<div class="item">
 								<span>6</span>
-								<a href="#">Review kem Yoosun Rau Má: Thành phần, công dụng, giá cả, địa chỉ bán.</a>
+								<a href="/blog-detail/">Review kem Yoosun Rau Má: Thành phần, công dụng, giá cả, địa chỉ bán.</a>
 							</div>
 						</div>
 					</div>

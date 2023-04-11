@@ -17,7 +17,7 @@ get_header();
                         <div class="list-items">
                                 <div class="row">
                                         <div class="col-md-3 col-sm-6">
-                                                <div class="items">
+                                                <a href="/blog-detail/" class="items">
                                                       <div class="image">
                                                          <img src="<?=  get_stylesheet_directory_uri() . '/assets/images/Rectangle 79.webp' ?>" alt=""> 
                                                       </div>
@@ -30,10 +30,10 @@ get_header();
                                                                 “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut purus in eni”
                                                                 </div>
                                                        </div>
-                                                </div>
+                                                </a>
                                         </div>
                                         <div class="col-md-3 col-sm-6">
-                                                <div class="items">
+                                                <a href="/blog-detail/" class="items">
                                                       <div class="image">
                                                          <img src="<?=  get_stylesheet_directory_uri() . '/assets/images/Rectangle 79.webp' ?>" alt=""> 
                                                       </div>
@@ -46,10 +46,10 @@ get_header();
                                                                 “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut purus in eni”
                                                                 </div>
                                                        </div>
-                                                </div>
+                                                </a>
                                         </div>
                                         <div class="col-md-3 col-sm-6">
-                                                <div class="items">
+                                                <a href="/blog-detail/" class="items">
                                                       <div class="image">
                                                          <img src="<?=  get_stylesheet_directory_uri() . '/assets/images/Rectangle 79.webp' ?>" alt=""> 
                                                       </div>
@@ -62,10 +62,10 @@ get_header();
                                                                 “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut purus in eni”
                                                                 </div>
                                                        </div>
-                                                </div>
+                                                </a>
                                         </div>
                                         <div class="col-md-3 col-sm-6">
-                                                <div class="items">
+                                                <a href="/blog-detail/" class="items">
                                                       <div class="image">
                                                          <img src="<?=  get_stylesheet_directory_uri() . '/assets/images/Rectangle 79.webp' ?>" alt=""> 
                                                       </div>
@@ -78,7 +78,7 @@ get_header();
                                                                 “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut purus in eni”
                                                                 </div>
                                                        </div>
-                                                </div>
+                                                </a>
                                         </div>
                                 </div>
                         </div>

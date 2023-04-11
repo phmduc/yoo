@@ -35,7 +35,7 @@ if( !empty($block['align']) ) {
         <div class="row">
             <div class="col-md-5">
                 <div class="contentBanner">
-                    <h1>Mẩn ngứa dịu ngay Sạch bay rôm sảy</h1>
+                    <img src="http://localhost:10005/wp-content/uploads/2023/04/Man-ngua-diu-ngay-Sach-bay-rom-say.webp" alt="">
                     <ul class="details">
                         <li>
                             <div class="text-details">Lorem ipsum</div>
