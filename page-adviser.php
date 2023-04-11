@@ -160,6 +160,18 @@ get_header();
                         </div>
                 </div>
         </div>
+
+        <div class="img-decor1">
+                <img src="<?=  get_stylesheet_directory_uri() . '/assets/images/rau má.webp' ?>" alt="">
+        </div>
+
+       <div class="img-decor2">
+                <img src="<?=  get_stylesheet_directory_uri() . '/assets/images/image 13 (1).webp' ?>" alt="">
+       </div>
+
+        <div class="img-decor3">
+                <img src="<?=  get_stylesheet_directory_uri() . '/assets/images/image 13.webp' ?>" alt="">
+        </div>
 </div>
 
 <?php
